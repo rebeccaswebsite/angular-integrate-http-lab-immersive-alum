@@ -4,7 +4,7 @@ function UserService($http) {
   };
   
   this.updateUser = function(userInfo) {
-    return $http.post('http://0.0.0.0:8882/rest/user', userInfo)
+    return $http.post('http://0.0.0.0:8882/rest/user', userInfo);
   };
 }
 
